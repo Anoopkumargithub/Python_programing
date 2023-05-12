@@ -1,0 +1,36 @@
+# print(20>30)
+# print(True>2)
+# print("Abc" == "abc")
+# print(10 or 20)
+# print(0 or False)
+# print("abc" or "xyz")
+# print(11 & 10)
+# print(~5)
+# print(bin(10))
+# print(oct(10))
+# print(hex(10))
+# a = 10>5
+# print(a)
+# n1 = 0o17
+# n2 = 0b11100010
+# n3 = 0x1c2
+# n = int(n1)
+# print(n)
+# n = int(n2)
+# print(n)
+# n = int(n3)
+# print(n)
+# n = int(input())
+# print (bin(n)[2:])
+# n = input("Enter a binary no.")
+# m = input ("Enter a another binary no.")
+# x = int(n,2) + int(m,2)
+# print(x)
+# y = bin(x)
+# print(y)
+# print(y[2:])
+# n = int(input("Enter a integer"))
+# if (n&(n-1))==0:
+#     print("yes")
+# else:
+#     print("no")
