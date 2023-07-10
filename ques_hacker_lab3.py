@@ -1,0 +1,1 @@
+# Ques.You have a uncle who daily gives you D chocolates upto N days. Also you have C chocolates already but your parents allow only to eat one chocolate per day. Calculate the total chocolates at the end of N days.
