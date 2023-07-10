@@ -1,0 +1,1 @@
+print("Helloanoopkumar"[-4:-2:-1])

@@ -1,18 +1,20 @@
-#print boundary of the matrix
-row =int(input())
-col=int(input())
-ls=[]
-for i in range (row):
-    ls1=[]
-    for j in range (col):
-        x=int(input())
-        ls1.append(x)
-    ls.append(ls1)
-print(ls)
-for i in range (row):
-    for j in range(col):
-        if i==0 or i==2 or j==0 or j==2:
-            print(ls[i][j],end='')
-        else :
-            print()
-print()
+a = int(input("enter the variable of x^2\n"))
+b = int(input("enter the variable of x\n"))
+c = int(input("enter the constant term\n"))
+
+D = ((b**2) - 4*a*c)
+if D<0:
+    print('roots are complex')
+    print(D)
+elif D>0 :
+    print("roots are real")
+    print(D)
+elif D==0 :
+    print("roots are real and equal")
+    print(D)
+else:
+    print("Enter no. only")
+
+x = ((-b + (D)**0.5)/2*a)
+y = ((-b - (D)**0.5)/2*a)
+print("roots are\n",(x,y))

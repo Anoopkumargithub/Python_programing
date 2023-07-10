@@ -1,3 +1,3 @@
 a = str(input("Enter any word\n"))
 b = str(input("Enter any word\n"))
-print(a or b)
+print(a==b)

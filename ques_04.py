@@ -1,17 +1,13 @@
-#print upper half of the matrix
-row =int(input())
-col=int(input())
-ls=[]
-for i in range (row):
-    ls1=[]
-    for j in range (col):
-        x=int(input())
-        ls1.append(x)
-    ls.append(ls1)
-print(ls)
-for i in range (row):
-    for j in range(col):
-        if i<=j:
-            
-            print(ls[i][j],end='')
-print()
+a = int(input("Enter the side of triangle\n"))
+b = int(input("Enter the side of triangle\n"))
+c = int(input("Enter the side of triangle\n"))
+if a+b>c or b+c>a or a+b>c:
+    print("Side is valid for triangle")
+    if a==b==c :
+        print("Triangle is equilateral")
+    elif a==b!=c:
+        print("Triangle is isoceleous")
+    else:
+        print("Triangle is scalene")
+else:
+    print("side is not valid for triangle")

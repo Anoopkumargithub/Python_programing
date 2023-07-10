@@ -1,0 +1,6 @@
+n = input("Enter a binary no.\n")
+m = input("Enter an another binary no.\n")
+x = int(n,2) + int(m,2)
+y = bin(x)
+print(y)
+print(y[2:])

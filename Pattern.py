@@ -1,5 +1,5 @@
-n = int(input("Enter a no.\n"))
 print("Pattern_01")
+n = int(input("Enter a no.\n"))
 i =0
 for i in range(1,n+1):
     print("*"*i)
@@ -32,6 +32,11 @@ for i in range(n,0,-1):
     print("*"*i+" "*space)
     i-=1
     space+=1
+print("Pattern_06")
+i=0
+space=n
+for i in range(1,n):
+    print()
 print("Pattern_")
 n=int(input("enter a no."))
 i=0
